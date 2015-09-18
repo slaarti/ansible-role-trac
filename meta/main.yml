@@ -1,0 +1,16 @@
+---
+galaxy_info:
+  author: slaarti
+  description: Installs the Trac issue tracking system package.
+  license: Unlicense
+  min_ansible_version: 1.2
+  platforms:
+  - name: Ubuntu
+    versions:
+    - all
+  - name: Debian
+    versions:
+    - all
+  categories:
+  - development
+dependencies: []
