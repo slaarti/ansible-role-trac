@@ -1,3 +1,3 @@
 ---
 - name: Install trac package.
-  apt: name=rsync state=latest update_cache=yes
+  apt: name=trac state=latest update_cache=yes
