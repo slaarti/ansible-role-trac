@@ -1,3 +1,7 @@
 ---
 - name: Install trac package.
   apt: name=trac state=latest update_cache=yes
+
+- name: Create trac user
+  user: name=trac comment="Trac package tracker" createhome=no
+        shell=/usr/sbin/nologin system=yes
